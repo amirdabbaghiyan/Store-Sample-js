@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../Fonts/font-icon/');
-  src:  url('../Fonts/font-icon/#iefix') format('embedded-opentype'),
-    url('../Fonts/font-icon/icomoon.ttf?h82eo8') format('truetype'),
-    url('../Fonts/font-icon/icomoon.woff?h82eo8') format('woff'),
-    url('../Fonts/font-icon/icomoon.svg?h82eo8#icomoon') format('svg');
+  src:  url('../Fonts/font-icon/icomoon.eot?wnx9l3');
+  src:  url('../Fonts/font-icon/icomoon.eot?wnx9l3#iefix') format('embedded-opentype'),
+    url('../Fonts/font-icon/icomoon.ttf?wnx9l3') format('truetype'),
+    url('../Fonts/font-icon/icomoon.woff?wnx9l3') format('woff'),
+    url('../Fonts/font-icon/icomoon.svg?wnx9l3#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,8 +28,23 @@
 .icon-left:before {
   content: "\e903";
 }
+.icon-archive:before {
+  content: "\e904";
+}
+.icon-bookmark:before {
+  content: "\e905";
+}
+.icon-book1:before {
+  content: "\e906";
+}
+.icon-book:before {
+  content: "\e902";
+}
 .icon-heart:before {
   content: "\e900";
+}
+.icon-book2:before {
+  content: "\e907";
 }
 .icon-search:before {
   content: "\e901";
