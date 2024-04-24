@@ -1,0 +1,140 @@
+/* styles */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #171D39;
+    --bg-input: #F1F2F4;
+}
+body,
+html {
+    padding: 0 60px 30px;
+    scroll-behavior: smooth;
+    /* text-align: center; */
+    font-family: 'Yekan-Bakh-Normal' , sans-serif;
+}
+/* ::selection {
+    color: black;
+    background-color: var(--primary-color);
+} */
+ul,
+li {
+    list-style: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+p {
+    line-height: 1.5;
+}
+input {
+    outline: unset;
+    border: unset;
+    font-family: inherit;
+}
+/* container */
+.container {
+    padding: 40px 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* header */
+/* top header */
+/* logo panel */
+.logo-panel {
+    margin-left: 80px;
+    display: flex;
+    column-gap: 20px;
+}
+.caption-logo {
+    padding-right: 15px;
+    position: relative;
+}
+.caption-logo::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(204, 201, 201, 0.714);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+}
+/* search box */
+.search-box {
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.search-box-icon {
+    width: 25%;
+    padding: 10px 5px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 8%;
+    z-index: 0;
+    color: #fff;
+}
+.search-box-input {
+    display: inline-block;
+    width: 75%;
+    padding: 15px 5px;
+    border-radius: 15px;
+    background-color: var(--bg-input);
+    position: relative;
+    z-index: 1;
+}
+/* login box */
+.login {
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    display: flex;
+    column-gap: 10px;
+    font-family: 'Yekan-Bakh-Bold';
+}
+.login-icon {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--bg-input);
+}
+/* cart box */
+.cart-box {
+    padding: 8px 10px;
+    border-radius: 15px;
+    background-color: #dbdde1;
+    display: flex;
+    column-gap: 5px;
+    font-size: 14px;
+}
+.cart-box-icon,
+.cart-box-num {
+    padding: 10px;
+    border-radius: 5px;
+}
+.cart-box-icon {
+    background-color: #49BE78;
+}
+.cart-box-num {
+    margin-right: 10px;
+    background-color: #fff;
+}
+/* favorite box */
+.favorite-box {
+    padding: 8px 10px;
+    border-radius: 15px;
+    background-color: #efd1d1;
+}
